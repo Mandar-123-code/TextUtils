@@ -39,10 +39,10 @@ export default function TextForm(props) {
   <textarea className="form-control" value={text}  onChange={handleOnChange} id="myBox" rows="8"></textarea>
 </div>
 <button className="btn btn-primary" onClick={handleUppercaseClick}>Convert to Uppercase</button>
-<button className="btn btn-primary mx-2" onClick={handleLowercaseClick}>Convert to Lowercase</button>
-<button className="btn btn-primary mx-2" onClick={handleClearText}>Clear Text</button>
-<button className="btn btn-primary mx-2" onClick={handleCopy}>Copy Text</button>
-<button className="btn btn-primary mx-2" onClick={handleExtraspaces}>Remove Extra Spaces</button>
+<button className="btn btn-primary mx-2 my-3" onClick={handleLowercaseClick}>Convert to Lowercase</button>
+<button className="btn btn-primary mx-2 my-3" onClick={handleClearText}>Clear Text</button>
+<button className="btn btn-primary mx-2 my-3" onClick={handleCopy}>Copy Text</button>
+<button className="btn btn-primary mx-2 my-3" onClick={handleExtraspaces}>Remove Extra Spaces</button>
     </div>
     <div className="container my-3">
         <h1>Your Text Summary</h1>
