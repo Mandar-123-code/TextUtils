@@ -40,3 +40,10 @@
 .blank{
   color: rgb(180, 28, 28);
 }
+
+mark {
+  background-color: #ffc107; /* Bootstrap warning yellow */
+  padding: 0 3px;
+  border-radius: 2px;
+}
+
